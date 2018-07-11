@@ -1,0 +1,14 @@
+Caesar Salad
+8.0
+Caesar salad dressing:2
+Bacon:5
+Romaine lettuce:3
+Croutons:4
+####
+Cheese:2
+Bacon:4
+Croutons:2
+####
+Croutons:4
+####
+Fresh caesar salad with croutons and bacon bits. With an option to add cheese.

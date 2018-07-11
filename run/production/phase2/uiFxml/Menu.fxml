@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewController.MenuController">
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+    <children>
+        <Label alignment="CENTER" prefHeight="83.0" prefWidth="288.0" text="Choose an Menu Item" textFill="#63113b">
+            <font>
+                <Font size="25.0" />
+            </font>
+            <VBox.margin>
+                <Insets bottom="20.0" />
+            </VBox.margin>
+        </Label>
+        <Label text="Select an menu item to modify:">
+            <VBox.margin>
+                <Insets bottom="20.0" />
+            </VBox.margin></Label>
+        <ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0" prefWidth="703.0">
+         <content>
+            <ListView fx:id="menuList" prefHeight="395.0" prefWidth="701.0" />
+         </content></ScrollPane>
+        <HBox alignment="CENTER" prefHeight="77.0" prefWidth="1260.0" spacing="150.0">
+            <VBox.margin>
+                <Insets top="10.0" />
+            </VBox.margin>
+            <children>
+                <Button fx:id="back" mnemonicParsing="false" onAction="#exit" text="Back" />
+            <Button fx:id="delete" mnemonicParsing="false" onAction="#delete" text="Delete " />
+            <Button fx:id="edit" mnemonicParsing="false" onAction="#edit" text="Edit" />
+                <Button fx:id="create" mnemonicParsing="false" onAction="#create" text="Create" />
+            </children>
+        </HBox>
+    </children>
+</VBox>

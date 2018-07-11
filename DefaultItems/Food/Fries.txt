@@ -1,0 +1,9 @@
+Fries
+6.0
+Potato:3
+Salt:1
+####
+####
+Salt:1
+####
+Classic fries with salt.

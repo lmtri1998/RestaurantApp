@@ -1,0 +1,4 @@
+NOTES:
+// If demo MenuItems and Supplies needed, run the Main first, then run DefaultMenuItems.java and DefaultSupplies.java
+// in model/configs.
+// Only terminates the program with the exit button.

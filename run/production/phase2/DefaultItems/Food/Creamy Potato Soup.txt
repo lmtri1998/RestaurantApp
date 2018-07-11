@@ -1,0 +1,18 @@
+Creamy Potato Soup
+7.0
+Potato:4
+Carrot:3
+Onion:3
+Sour cream:3
+Milk:3
+Cheese:3
+Bacon:5
+####
+Carrot:2
+Onion:2
+####
+Carrot:3
+Cheese:3
+Bacon:5
+####
+Creamy home cooked potato soup with bacon bits, diced carrots and onion.

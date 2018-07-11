@@ -1,0 +1,39 @@
+*** Take user input instead of read events.txt to simulate the program. (we've asked prof Lindsey for permission) ***
+
+NOTES:
+// Must open the project as "phase1" (i.e. phase1 is the project folder) and make phase1 the source root.
+// Can run multiple Main.main program in multiple windows to test out all interactions between server, manager, and cook.
+// The files sometimes don't display in the folders unless exit program, but they still exits.
+// Do not touch any text files in Extras.
+// Other than Y/N options, everything else is case sensitive.
+// There are default MenuItems and Stock but you are welcome to add more supplies to create menu items through
+command line.
+// If you want to create a menu from scratch, please delete ALL the folders.
+
+START:
+Run "oldClasses.IanRestaurant.java" to start.
+
+(This is the display of the Main.main page)
+Chose one of the four options (3 occupations) by typing the number:
+	1. Manager
+	2. oldClasses.Server
+	3. Cook
+	4. Exit (close the program)
+// Once user chose one of the operation in each occupation, they must finish the operation in order to go back to Main.main
+display.
+
+** If choose "1. Manager":
+	- Password is: idontknow
+	- Takes on the role as a receiver (only manager can receive new supplies)
+	- Note: If there is no ingredients in Stock, we cannot create a menu item.
+	        model.data.Ingredients that user choose must be in directory Stock.
+
+** If choose "2. oldClasses.Server":
+	- Note: Cannot make an order if there is no oldClasses.MenuItem.
+	        Items can only be return once it has been served.
+	        please remember the table number for the order for all operations.
+
+** If choose "3. Cook":
+    - Confirming an item will not let the server edit the item since the cook is making it. If the server delete
+    the item, the reserved supply quantity will still be subtract from stock.
+    - Finishing an item means the cook has finished the item and ready to serve.

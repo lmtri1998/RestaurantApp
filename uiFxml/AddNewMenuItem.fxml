@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="viewController.AddMenuItemController">
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <children>
+      <Label prefHeight="83.0" prefWidth="288.0" text="Create new menu item" textFill="#63113b">
+         <font>
+            <Font size="25.0" />
+         </font>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </Label>
+      <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="50.0" spacing="10.0" style="-fx-background-color: #caa49d;">
+         <children>
+            <Label text="Item's name:" />
+            <TextField fx:id="itemName">
+               <HBox.margin>
+                  <Insets right="30.0" />
+               </HBox.margin></TextField>
+            <Label text="Item's price:" />
+            <TextField fx:id="itemPrice" />
+         </children>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="90.0" spacing="20.0" style="-fx-background-color: #caa49d;">
+         <children>
+            <Label text="Description:" />
+            <TextField fx:id="description" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="30.0" prefWidth="275.0" />
+         </children>
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="150.0" spacing="20.0" style="-fx-background-color: #caa49d;">
+         <children>
+            <Label text="Pick ingredient(s):" />
+            <ComboBox fx:id="chooseIngredients" prefWidth="150.0" />
+            <TextField fx:id="quantity" onAction="#addIngredient" />
+            <Label text="List of ingredient(s):" />
+            <ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="150.0" prefWidth="435.0">
+               <content>
+                  <FlowPane fx:id="ingredientFlow" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="127.0" prefWidth="433.0" />
+               </content>
+            </ScrollPane>
+         </children>
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="150.0" spacing="20.0" style="-fx-background-color: #caa49d;">
+         <children>
+            <Label text="Add addition(s):" />
+            <ComboBox fx:id="chooseAvailableAddition" prefWidth="150.0" />
+            <TextField fx:id="additionQuantity" onAction="#addAddition" />
+            <Label layoutX="375.0" layoutY="77.0" text="List of addition(s):">
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+            </Label>
+            <ScrollPane layoutX="471.0" layoutY="10.0" prefHeight="150.0" prefWidth="435.0">
+               <content>
+                  <FlowPane fx:id="additionsFlow" prefHeight="127.0" prefWidth="433.0" />
+               </content>
+            </ScrollPane>
+         </children>
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="150.0" spacing="50.0" style="-fx-background-color: #caa49d;">
+         <children>
+            <Label text="Add subtraction(s):" />
+            <ComboBox fx:id="chooseAvailableSubtraction" prefWidth="150.0" />
+            <Button fx:id="addSubtraction" mnemonicParsing="false" onAction="#addSubtraction" text="Add" />
+            <Label layoutX="375.0" layoutY="77.0" text="List of subtraction(s):">
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+            </Label>
+            <ScrollPane layoutX="471.0" layoutY="10.0" prefHeight="150.0" prefWidth="435.0">
+               <content>
+                  <FlowPane fx:id="subtractionsFlow" prefHeight="127.0" prefWidth="433.0" />
+               </content>
+            </ScrollPane>
+         </children>
+         <padding>
+            <Insets bottom="10.0" top="10.0" />
+         </padding>
+         <VBox.margin>
+            <Insets bottom="5.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="77.0" prefWidth="1260.0" spacing="300.0">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <children>
+            <Button fx:id="back" mnemonicParsing="false" onAction="#back" text="Back" />
+            <Label fx:id="warning" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="375.0" textAlignment="CENTER" textFill="#f20707" />
+            <Button fx:id="done" mnemonicParsing="false" onAction="#done" text="Done" />
+         </children>
+      </HBox>
+   </children>
+</VBox>

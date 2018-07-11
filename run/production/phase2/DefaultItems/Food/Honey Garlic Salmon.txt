@@ -1,0 +1,14 @@
+Honey Garlic Salmon
+16.0
+Honey:4
+Salmon:1
+Butter:2
+Soy sauce:4
+Garlic:3
+####
+Garlic:2
+####
+Butter:2
+Garlic:3
+####
+Pan fried salmon in honey garlic sauce.

@@ -1,0 +1,17 @@
+Beef tacos
+13.0
+Lettuce:2
+Onion:3
+Minced Meat:4
+Cheese:2
+Tomato:2
+Hard taco shell:2
+####
+Onion:1
+Cheese:1
+Tomato:1
+####
+Cheese:2
+Tomato:2
+####
+Traditional Mexican hard shell Taco with flavored minced beef.

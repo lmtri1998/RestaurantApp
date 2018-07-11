@@ -1,0 +1,11 @@
+Sundae ice cream
+7.0
+Ice cream:3
+Sprinkles:1
+Banana:1
+####
+Sprinkles:1
+####
+Sprinkles:1
+####
+3 scoops of vanilla ice cream with banana and sprinkles on top.

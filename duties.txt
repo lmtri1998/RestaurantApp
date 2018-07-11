@@ -1,0 +1,24 @@
+Tri Minh Le
+- Implements all classes related to deleting, editing, and creating MenuItem and view Menu Item.
+- Docstrings for half of the classes.
+- Implements all classes related to Receipt, Print Receipt, and Making Payment.
+- Default MenuItems and Default Supplies.
+- Creates and implements the Edit Supply to change the request amount.
+
+Ian (I-Yu) Chen
+- Implements all classes related to deleting, editing, and creating Order, and creating Items that is in an Order.
+- Switch Scene class.
+- All the Controllers in the control folder.
+- Check all the supplies.
+- Loggers.
+
+Michael(Zhi Peng) Lin
+- Implements all classes related to deleting, editing, and creating KitchenDisplay and ReceiveSupply scene.
+- All Observer, Observable ideas.
+- Implements FileController.
+- Serialization.
+
+Nhi Nguyen
+- All the UI designs.
+- Most of the classes related to SupplyManager.
+- Deliver Items in Server part.

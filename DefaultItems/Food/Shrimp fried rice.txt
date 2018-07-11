@@ -1,0 +1,16 @@
+Shrimp fried rice
+10.0
+Carrot:3
+Onion:3
+Pepper:2
+Soy sauce:2
+Tomato:3
+Shrimp:6
+Eggs:2
+Rice:3
+####
+Shrimp:2
+####
+Onion:3
+####
+Chinese shrimp fried rice with eggs and veggies.

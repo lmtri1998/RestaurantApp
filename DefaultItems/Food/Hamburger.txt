@@ -1,0 +1,15 @@
+Hamburger
+12.0
+Lettuce:1
+Beef Burger Patty:1
+Tomato:1
+Bread:1
+####
+Lettuce:1
+Beef Burger Patty:1
+Tomato:1
+####
+Lettuce:1
+Tomato:1
+####
+Classic hamburger with delicious patty, fresh lettuce and tomato.
